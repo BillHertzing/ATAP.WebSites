@@ -2,6 +2,6 @@
 @model IndexModel
 @{
     ViewData["Title"] = "Home Page";
+    ViewData["BackGroundImage"] = "./images/static/comingsoon.png";
 }
-
-<div>Information about ATAP Technology, Inc., and the consulting services available is Coming Soon!</div>
+<div><img src="@ViewData["BackGroundImage"]" /></div>
