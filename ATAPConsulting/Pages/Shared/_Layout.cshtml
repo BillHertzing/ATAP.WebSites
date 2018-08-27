@@ -7,12 +7,11 @@
   <title>@ViewData["Title"] - ATAP Technology, Inc.</title>
   <!-- other styles, meta tags, etc. -->
   <!--  Eventually move to CSS stylesheet perhaps -->
-  <style type="text/css">
-    .body {
-      background: #ffffff;
-    }
+  
   </style>
-
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet" type='text/css'
   <environment include="Development">
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="~/css/site.css" />
@@ -53,7 +52,8 @@
     @RenderBody()
     <hr />
     <footer>
-      <p>&copy; 2018 - ATAP Technology, Inc.</p>
+      <p>ATAP Technology Inc.</p>
+      <a href="mailto:info@atapconsulting.com" id=email>info@atapconsulting.com</a>
     </footer>
   </div>
 

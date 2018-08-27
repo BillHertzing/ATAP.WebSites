@@ -1,0 +1,79 @@
+/*** BASE STLYES***/
+
+body {
+  font-family: 'Muli', sans-serif;
+  color: #bdd6ee;
+
+  background: url('../images/static/code-backdrop.jpg');
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+/*** GRID ***/
+
+.full-width{
+ width: 1368px;
+ margin: 0 auto;
+}
+
+.half-width{
+  width: 684px;
+  float: left;
+}
+
+ p {
+  color: #bdd6ee;
+  font-size: 24px;
+  margin: 0;
+  padding: px;
+}
+
+#email{
+  float: right;
+  font-size: 24px;
+  color: #bdd6ee;
+  line-height: 0;
+  margin: 0;
+  padding: 0 20px;
+  text-decoration: none;
+
+}
+
+header {
+  width:auto;
+  height: 60px;
+  background-color: #57636e;
+  margin: 0;
+  padding: 0;
+}
+
+
+h1 {
+  font-size: 64px;
+  font-weight: bold;
+  text-align: right;
+  margin: 0 20px;
+}
+
+h1 span{
+  color: white;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 0;
+  text-align: right;
+  margin: 20px;
+}
+
+h2 span{
+  color: white;
+}
+
+
+footer {
+  width:auto;
+  height: 60px;
+  background-color: #57636e;
+}
